@@ -14,13 +14,18 @@ Basic implementations of neural network models using Jax and Pytorch.
     ```
 - [jax](https://jax.readthedocs.io/en/latest/index.html)
     ```
-    Jax 0.4.35
-    Flax 0.10.2
-    Optax 0.2.4
+    jax 0.4.35
+    flax 0.10.2
+    optax 0.2.4
+    clu 0.0.12
     ```
 - [pytorch](https://pytorch.org/)
     ```
-    Pytorch 2.3.1
+    pytorch 2.3.1
+    torchvision 0.18.1
+    torchaudio 2.3.1
+    torchviz 0.0.2
+    torchview 0.2.6
     ```
 
 ## Setup
