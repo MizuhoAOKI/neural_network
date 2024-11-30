@@ -26,31 +26,31 @@ Basic implementations of neural network models using Jax and Pytorch.
 ## Setup
 
 ### For Jax Users
-    ```bash
-    git clone https://github.com/MizuhoAOKI/neural_network.git
-    cd neural_network
-    cp ./pyproject_jax.toml ./pyproject.toml
-    rye sync
-    ```
+```bash
+git clone https://github.com/MizuhoAOKI/neural_network.git
+cd neural_network
+cp ./pyproject_jax.toml ./pyproject.toml
+rye sync
+```
 
 ### For Pytorch Users
-    ```bash
-    git clone https://github.com/MizuhoAOKI/neural_network.git
-    cd neural_network
-    cp ./pyproject_pytorch.toml ./pyproject.toml
-    rye sync
-    ```
+```bash
+git clone https://github.com/MizuhoAOKI/neural_network.git
+cd neural_network
+cp ./pyproject_pytorch.toml ./pyproject.toml
+rye sync
+```
 
 ## Usage
 
 ### For Jax Users
-    ```bash
-    rye run jupyter notebook notebooks/mlp_jax.ipynb
-    ```
+```bash
+rye run jupyter notebook notebooks/mlp_jax.ipynb
+```
 
 ### For Pytorch Users
-    ```bash
-    rye run jupyter notebook notebooks/mlp_pytorch.ipynb
-    ```
+```bash
+rye run jupyter notebook notebooks/mlp_pytorch.ipynb
+```
 
 <img src="./media/mlp.png" width="500" />
